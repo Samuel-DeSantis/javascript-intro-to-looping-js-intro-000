@@ -4,8 +4,13 @@ function forLoop(array) {
   }
   return array;
 }
-function whileLoop(array) {}
-function whileLoop(n) {}
+function whileLoop(n) {
+  while(n >= 0) {
+    console.log(n);
+    n--;
+  }
+  return 'done';
+}
 function doWhileLoop(num) {}
 /*
 let i = 0;
