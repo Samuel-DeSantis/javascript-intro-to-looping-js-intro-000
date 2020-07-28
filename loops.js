@@ -1,6 +1,7 @@
+function incrementVariable(x) {return x++;}
 function forLoop(array) {
   for(let i = 0; i < 25; i++) {
-    array[i] = `\"I am ${i} strange loop${i === 1 ? '' : 's'}.\"`;
+    array.push(`\"I am ${i} strange loop${i === 1 ? '' : 's'}.\"`);
   }
   return array;
 }
@@ -11,7 +12,9 @@ function whileLoop(n) {
   }
   return 'done';
 }
-function doWhileLoop(num) {}
+function doWhileLoop(num) {
+  
+}
 /*
 let i = 0;
 
