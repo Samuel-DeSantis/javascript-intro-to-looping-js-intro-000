@@ -13,7 +13,7 @@ function whileLoop(n) {
   return 'done';
 }
 function doWhileLoop(num) {
-  
+
 }
 /*
 let i = 0;
