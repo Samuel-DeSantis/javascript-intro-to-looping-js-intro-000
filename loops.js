@@ -4,6 +4,9 @@ function forLoop(array) {
     else {array[i] = `\"I am ${i} strange loops.\"`}
   }
 }
+function whileLoop(array) {}
+function whileLoop(n) {}
+function doWhileLoop(num) {}
 /*
 let i = 0;
 
