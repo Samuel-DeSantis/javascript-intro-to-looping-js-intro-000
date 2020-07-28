@@ -9,7 +9,8 @@ function forLoop(array) {
   }
   return new_array;
 }
-
+console.log(new_array)
+/*
 function whileLoop(n) {
   while(n > 0) {
     console.log(n);
